@@ -1,0 +1,270 @@
+/* Review Feed Styles */
+.review-feed-page {
+    background-color: #F9FAFB;
+    min-height: 100vh;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    padding-bottom: 4rem;
+}
+
+/* Hero Section */
+.review-hero {
+    background: white;
+    padding: 4rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid #E5E7EB;
+    margin-bottom: 3rem;
+}
+
+.review-hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #111827;
+    margin-bottom: 1rem;
+    letter-spacing: -0.025em;
+}
+
+.review-hero p {
+    color: #6B7280;
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Stats & Controls Container */
+.feed-controls {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Stats Cards */
+.sentiment-stats {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.stat-card {
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #F3F4F6;
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #111827;
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    color: #6B7280;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.stat-value.positive {
+    color: #10B981;
+}
+
+.stat-value.critical {
+    color: #EF4444;
+}
+
+/* Filter Tabs */
+.feed-filters {
+    display: flex;
+    background: white;
+    padding: 0.5rem;
+    border-radius: 99px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    gap: 0.5rem;
+}
+
+.filter-btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 99px;
+    border: none;
+    background: transparent;
+    color: #6B7280;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.filter-btn:hover {
+    color: #111827;
+    background: #F3F4F6;
+}
+
+.filter-btn.active {
+    background: #111827;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Masonry Grid */
+.reviews-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    column-count: 3;
+    column-gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .reviews-grid {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 640px) {
+    .reviews-grid {
+        column-count: 1;
+    }
+
+    .feed-controls {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+
+    .sentiment-stats {
+        justify-content: center;
+    }
+
+    .feed-filters {
+        justify-content: center;
+    }
+}
+
+/* Review Card */
+.review-card {
+    break-inside: avoid;
+    background: white;
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    border: 1px solid #F3F4F6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Sentiment Badge */
+.sentiment-badge {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 99px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.sentiment-badge.positive {
+    background: #ECFDF5;
+    color: #059669;
+}
+
+.sentiment-badge.critical {
+    background: #FEF2F2;
+    color: #DC2626;
+}
+
+.sentiment-badge.neutral {
+    background: #F3F4F6;
+    color: #4B5563;
+}
+
+/* Card Content */
+.product-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #F3F4F6;
+}
+
+.product-thumb {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    object-fit: cover;
+    background: #f0f0f0;
+}
+
+.product-name {
+    font-weight: 700;
+    color: #111827;
+    font-size: 0.95rem;
+    line-height: 1.2;
+}
+
+.review-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.reviewer-meta {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewer-name {
+    font-weight: 600;
+    color: #374151;
+    font-size: 0.9rem;
+}
+
+.review-date {
+    font-size: 0.75rem;
+    color: #9CA3AF;
+}
+
+.review-rating {
+    display: flex;
+    color: #FBBF24;
+    /* Yellow-400 */
+    font-size: 0.9rem;
+    gap: 2px;
+}
+
+.review-comment {
+    color: #4B5563;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* Loading State */
+.feed-loader {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    color: #9CA3AF;
+    font-size: 1.2rem;
+}

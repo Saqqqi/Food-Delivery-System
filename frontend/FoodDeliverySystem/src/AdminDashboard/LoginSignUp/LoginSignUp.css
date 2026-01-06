@@ -1,0 +1,13 @@
+.business-login h2,.businessRegistration h2
+{
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+.business-login h2
+{
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 56px;
+    color: #484848;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+

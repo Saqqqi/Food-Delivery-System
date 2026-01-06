@@ -1,0 +1,40 @@
+.dine-in-menu-page {
+    background-color: #1a202c; /* Dark background */
+    min-height: calc(100vh - 60px); /* Adjust based on your header/footer height */
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .menu-item-card {
+    background: linear-gradient(145deg, #2d3748, #1a202c); /* Gradient background for cards */
+    border: 1px solid #4a5568; /* Subtle border */
+    border-radius: 10px;
+    color: #e2e8f0; /* Light text color */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .menu-item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .menu-item-title {
+    color: #f6ad55; /* Orange-ish title */
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .menu-item-subtitle {
+    color: #cbd5e0; /* Lighter grey for subtitle */
+  }
+  
+  .menu-item-description {
+    color: #a0aec0; /* Grey for description */
+    font-size: 0.95rem;
+  }
+  
+  .menu-item-price {
+    color: #68d391; /* Green for price */
+    font-weight: bold;
+    font-size: 1.2rem;
+  }

@@ -1,0 +1,7 @@
+.red-row {
+    background-color: red !important; /* Important to override Bootstrap's default styles */
+  }
+  
+  .transparent-row {
+    background-color: transparent !important; /* Important to override Bootstrap's default styles */
+  }

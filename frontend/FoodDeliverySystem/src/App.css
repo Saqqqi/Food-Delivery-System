@@ -1,0 +1,429 @@
+:root {
+  /* background-color: #62fcaf; */
+  --first-color: #2563eb !important;
+  --second-color: #FC00FF !important;
+}
+body, html {
+  background-color: #181539;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bg-light
+{
+  background-color: red !important;
+}
+
+.border-left-custom
+{
+  border-left: 8px solid var(--first-color);
+}
+.custom-line
+{
+  border: 1px solid var(--first-color);
+  margin: 0;
+}
+
+.bg-custom {
+  /* background-color: var(--first-color) !important; */
+  background-color: #2563eb;
+  
+  }
+.bg-gradient {
+ 
+  background-color: #2563eb !important;
+background-image: linear-gradient(90deg, #21D4FD 0%, #2563eb 100%) !important;
+
+}
+
+.shadow-custom 
+{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.spaced-table {
+  border-spacing: 0 10px !important;
+  border-collapse: separate !important;
+  width: 100% !important;
+}
+
+
+/* Sidbar Code */
+.sidebar {
+  width: 17% !important;
+  max-width: 300px;
+  height: 100%;
+}
+
+.sidebar-header {
+  padding: 20px;
+  text-align: center;
+}
+
+.sidebar-header h3 {
+  color: white;
+}
+
+.list-unstyled {
+  padding-left: 0;
+}
+
+.components li {
+  padding: 10px 0;
+
+}
+
+.components li:hover {
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  padding-left: 8px;
+  border-left: 8px solid var(--first-color);
+}
+
+.components a {
+  color: white;
+  text-decoration: none;
+}
+
+.components a:hover {
+  color: white;
+}
+
+.sidebar.expanded {
+  width: 16.6667%;
+}
+
+.sidebar.collapsed {
+  width: 70px !important;
+}
+
+.sidebar .sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar .toggle-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.sidebar ul {
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.sidebar ul li i {
+  font-size: 1.2rem;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+
+/* Sidbar Code */
+
+
+main
+{
+	background-color: #fee3ae;
+}
+.home-image
+{
+	background-image: url('https://img.freepik.com/premium-photo/chinese-cuisine-plate-spicy-roast-fish_1205-10437.jpg?w=740');
+}
+.about-image
+{
+	background-image: url('https://img.freepik.com/premium-photo/portrait-shows-group-hotel-employees-posing-collectively-hotel-generate-ai_905417-5085.jpg?w=826');
+}
+.contact-image
+{
+	background-image: url('https://img.freepik.com/premium-photo/receptionist-businesswoman-hotel-front-desk_941600-10736.jpg?w=740');
+}
+.blogs-image
+{
+	background-image: url('https://thumbs.dreamstime.com/b/indian-chat-kachori-topped-curd-onions-laid-black-background-fried-sev-green-red-chillies-197274335.jpg');
+}
+.order-form-image
+{
+	background-image: url('https://img.freepik.com/free-photo/view-delicious-dumplings_23-2150777771.jpg?t=st=1694432809~exp=1694436409~hmac=3db1953124c5c02bcdf8e468ea305431b6a952c3dccb3f9f6aa7cda1d3a206fa&w=740');
+}
+.back
+{
+	background:radial-gradient(200% 188% at top,white 50%,rgba(247,85,2,255) 50.1%);
+}
+.bg-image
+{
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bg-transparent-color
+{
+	background-color:rgba(0, 0, 0, 0.6);
+}
+.bg-orange
+{
+	background-color:rgba(247,85,2,255) !important;
+}
+
+.font
+{
+	font-size:80px; font-weight: 800;
+}
+.food-card
+{
+	background:radial-gradient(200% 188% at top,white 50%,#fee3ae 50.1%);
+	width:18rem;
+	min-height: 16rem;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.my-card
+{
+	background:radial-gradient(200% 188% at top,white 50%,#fee3ae 50.1%);
+	width:22rem;
+	min-height: 16rem;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.food-card:hover {
+	transition: transform 1s;
+	transform: scale(1.1);
+	cursor: zoom-in;
+	background:radial-gradient(200% 188% at top,white 50%,#fee3ae 50.1%);
+}
+.shadoww
+{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.my-cardblog
+{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	width: 25rem;
+	height:14rem;
+
+}
+.my-cardblog .card-title
+{
+	font-weight: 800;
+}
+.my-cardblog a
+{
+	background-color:rgba(247,85,2,255);
+}
+.text-orange
+{
+	color: rgba(247,85,2,255) !important;
+}
+.team-card
+{
+	width: 18rem;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background:radial-gradient(100% 70% at top,#fee3ae 50%,white 50.1%);
+}
+.team-card-admin
+{
+	width: 18rem;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background:radial-gradient(100% 70% at top,rgba(247,85,2,255) 50%,white 50.1%);
+}
+.team-card-admin img
+{
+	top: 40px;
+	left: 20%;
+	height: 10.5rem;
+	width: 10.5rem;   
+	z-index: 900;
+	border: 5px solid rgba(247,85,2,255);
+}
+.team-card img
+{
+	
+	top: 40px;
+	left: 20%;
+	height: 10.5rem;
+	width: 10.5rem;   
+	z-index: 900;
+	border: 5px solid #fee3ae;
+
+}
+
+
+/* Animations Loading */
+
+
+.animated-loading
+{
+  animation: loading 2s infinite ease-in-out;
+
+}
+
+@keyframes loading{
+
+  0%, 100% {
+    background: url("./Assets/homeslider/main-slide-03.jpg");
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  50% {
+    background: url("./Assets/dddd.jpg");
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  70% {
+    background: url("./Assets/homeslider/asd.jpg");
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+
+}
+
+.well-background
+{
+  background: url("./Assets/dddd.jpg");
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+@keyframes bgfround{
+
+  0%, 100% {
+    background: url("./Assets/four.jpg");
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  50% {
+    background: url("./Assets/four.jpg");
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+}
+
+/* Admin Dashboard Specific Styles */
+.admin-dashboard {
+  background-color: #181539;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.admin-dashboard h1, 
+.admin-dashboard h2, 
+.admin-dashboard h3, 
+.admin-dashboard h4, 
+.admin-dashboard h5, 
+.admin-dashboard h6 {
+  color: #ffc107;
+}
+
+.admin-dashboard p,
+.admin-dashboard span,
+.admin-dashboard div {
+  color: #ffffff;
+}
+
+.admin-dashboard a {
+  color: #ffc107;
+}
+
+.admin-dashboard a:hover {
+  color: #e0a800;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 193, 7, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 193, 7, 0.8);
+}
+
+/* Dashboard Card Styles */
+.dashboard-card {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border: 1px solid rgba(255, 193, 7, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+/* Dashboard Button Styles */
+.dashboard-btn {
+  background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%);
+  color: #1a1a2e;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 193, 7, 0.3);
+}
+
+.dashboard-btn:hover {
+  background: linear-gradient(135deg, #e0a800 0%, #e68a00 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 193, 7, 0.4);
+}
+
+/* Dashboard Section Titles */
+.dashboard-title {
+  color: #ffc107;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(255, 193, 7, 0.3);
+}
+
+/* Dashboard Text */
+.dashboard-text {
+  color: #a0aec0;
+}
+
+/* Dashboard Icon Styles */
+.dashboard-icon {
+  color: #ffc107;
+}
+
+/* Responsive Grid */
+.grid-gap {
+  gap: 1.5rem;
+}
+
+/* Animation Classes */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
