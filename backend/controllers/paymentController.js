@@ -1,6 +1,6 @@
 const Stripe = require('stripe');
 
-const stripe = new Stripe('sk_test_51QxD1yKceDVMdbbbIUgQPw1VMrVSTAsqSl2LbHkaNUDMYjkxpIt4lnLx83WpgDrhBGjHBSWXm3OmKJA8FzXqD8Tg00Xmx8lHvE', {
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
   apiVersion: '2023-10-16',
 });
 
